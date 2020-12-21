@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import './home.dart';
+import 'package:adobe_xd/page_link.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class loginMainloginMain extends StatelessWidget {
+class loginMain extends StatelessWidget {
   final ImageProvider emailbox;
-  loginMainloginMain({
+  loginMain({
     Key key,
     this.emailbox = const AssetImage('assets/images/emailbox.png'),
   }) : super(key: key);
@@ -194,7 +196,7 @@ class loginMainloginMain extends StatelessWidget {
             child: SizedBox(
               width: 277.0,
               child: Text(
-                'メールアドレスで登録',
+                'メールアドレスではじめる',
                 style: TextStyle(
                   fontFamily: 'Yu Gothic UI',
                   fontSize: 15,
@@ -318,16 +320,26 @@ class loginMainloginMain extends StatelessWidget {
           ),
           Transform.translate(
             offset: Offset(74.2, 592.0),
-            child: SizedBox(
-              width: 106.0,
-              child: Text(
-                'Sign in',
-                style: TextStyle(
-                  fontFamily: 'Bahnschrift',
-                  fontSize: 15,
-                  color: const Color(0xffffffff),
+            child: PageLink(
+              links: [
+                PageLinkInfo(
+                  transition: LinkTransition.SlideLeft,
+                  ease: Curves.easeOut,
+                  duration: 0.3,
+                  pageBuilder: () => home(),
                 ),
-                textAlign: TextAlign.center,
+              ],
+              child: SizedBox(
+                width: 106.0,
+                child: Text(
+                  'Sign in',
+                  style: TextStyle(
+                    fontFamily: 'Bahnschrift',
+                    fontSize: 15,
+                    color: const Color(0xffffffff),
+                  ),
+                  textAlign: TextAlign.center,
+                ),
               ),
             ),
           ),
