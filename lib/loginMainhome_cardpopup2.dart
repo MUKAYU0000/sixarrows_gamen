@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class home_cardpopup2 extends StatelessWidget {
-  home_cardpopup2({
+class loginMainhome_cardpopup2 extends StatelessWidget {
+  loginMainhome_cardpopup2({
     Key key,
   }) : super(key: key);
   @override

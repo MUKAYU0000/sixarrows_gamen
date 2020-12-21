@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:adobe_xd/pinned.dart';
-import './home_sixarrows.dart';
+import './loginMainhome_sixarrows.dart';
 import 'package:adobe_xd/page_link.dart';
 
-class home_cardpopup extends StatelessWidget {
-  home_cardpopup({
+class loginMainhome_cardpopup extends StatelessWidget {
+  loginMainhome_cardpopup({
     Key key,
   }) : super(key: key);
   @override
@@ -91,7 +91,7 @@ class home_cardpopup extends StatelessWidget {
                   transition: LinkTransition.Fade,
                   ease: Curves.linear,
                   duration: 0.3,
-                  pageBuilder: () => home_sixarrows(),
+                  pageBuilder: () => loginMainhome_sixarrows(),
                 ),
               ],
               child: SizedBox(

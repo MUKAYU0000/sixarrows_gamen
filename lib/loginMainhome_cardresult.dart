@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class home_cardresult extends StatelessWidget {
-  home_cardresult({
+class loginMainhome_cardresult extends StatelessWidget {
+  loginMainhome_cardresult({
     Key key,
   }) : super(key: key);
   @override

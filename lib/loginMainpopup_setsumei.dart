@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class popup_setsumei extends StatelessWidget {
-  popup_setsumei({
+class loginMainpopup_setsumei extends StatelessWidget {
+  loginMainpopup_setsumei({
     Key key,
   }) : super(key: key);
   @override

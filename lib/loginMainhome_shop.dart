@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class shop extends StatelessWidget {
-  shop({
+class loginMainhome_shop extends StatelessWidget {
+  loginMainhome_shop({
     Key key,
   }) : super(key: key);
   @override

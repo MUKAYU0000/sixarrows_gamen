@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import './home.dart';
+import './loginMainhome.dart';
 import 'package:adobe_xd/page_link.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class loginMain extends StatelessWidget {
+class loginMainloginMain extends StatelessWidget {
   final ImageProvider emailbox;
-  loginMain({
+  loginMainloginMain({
     Key key,
     this.emailbox = const AssetImage('assets/images/emailbox.png'),
   }) : super(key: key);
@@ -326,7 +326,7 @@ class loginMain extends StatelessWidget {
                   transition: LinkTransition.SlideLeft,
                   ease: Curves.easeOut,
                   duration: 0.3,
-                  pageBuilder: () => home(),
+                  pageBuilder: () => loginMainhome(),
                 ),
               ],
               child: SizedBox(

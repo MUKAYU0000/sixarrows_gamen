@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import './home_setting.dart';
+import './loginMainhome_setting.dart';
 import 'package:adobe_xd/page_link.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class home_sixarrows extends StatelessWidget {
-  home_sixarrows({
+class loginMainhome_sixarrows extends StatelessWidget {
+  loginMainhome_sixarrows({
     Key key,
   }) : super(key: key);
   @override
@@ -54,7 +54,7 @@ class home_sixarrows extends StatelessWidget {
                   transition: LinkTransition.Fade,
                   ease: Curves.linear,
                   duration: 0.3,
-                  pageBuilder: () => home_setting(),
+                  pageBuilder: () => loginMainhome_setting(),
                 ),
               ],
               child: Container(

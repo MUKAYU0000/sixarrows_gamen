@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class home_setting extends StatelessWidget {
-  home_setting({
+class loginMainhome_setting extends StatelessWidget {
+  loginMainhome_setting({
     Key key,
   }) : super(key: key);
   @override

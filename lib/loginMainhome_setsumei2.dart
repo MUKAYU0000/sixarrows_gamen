@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class home_setsumei2 extends StatelessWidget {
-  home_setsumei2({
+class loginMainhome_setsumei2 extends StatelessWidget {
+  loginMainhome_setsumei2({
     Key key,
   }) : super(key: key);
   @override

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:adobe_xd/pinned.dart';
 
-class home_setpeople extends StatelessWidget {
-  home_setpeople({
+class loginMainhome_setpeople extends StatelessWidget {
+  loginMainhome_setpeople({
     Key key,
   }) : super(key: key);
   @override
